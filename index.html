@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./images/icon.jpg" type="image/x-icon">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form action="/login" method="POST" class="login-form" onsubmit="form(event)">
+
+            <label for="username" class="text">Enter Your Email</label>           
+                <input type="text" id="username" name="username" >
+                <br>
+                <label for="password" class="text">Enter New Password</label>
+                <input type="password" id="new_password" name="password" placeholder="One-Time Password">
+                <br>
+                <label for="password" class="text"> Confirm New Password</label>
+                <input type="password" id="confirm_password" name="password" >
+                <input type="submit" value="Login" class="login-btn" >
+
+        </form>
+    </div>
+
+</body>
+</html>
