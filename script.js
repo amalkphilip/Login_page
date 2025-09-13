@@ -15,11 +15,12 @@ function form() {
 
     else if (password == confirm_password) {
         alert("PASSWORDS match. Form will be submitted.");
-        window.location.href = "https://www.google.com";
+        window.location.href = "https://amalkphilip.github.io/Portfolio/";
     } else {
         alert("PASSWORDS doesn't match.");
         return;
     }
 
     
+
 }
